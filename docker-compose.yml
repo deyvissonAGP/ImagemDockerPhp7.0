@@ -1,0 +1,12 @@
+version: "3.3"
+services: 
+  web:
+    build: .
+    container_name: "php7-0apache2"
+    restart: "always"
+    volumes:
+      - "/home/suinfor/Documentos/docker/php7-0/htdocs:/var/www/html"
+      - "/home/suinfor/Documentos/docker/php7-0/config/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf"
+      - "/home/suinfor/Documentos/docker/php7-0/config/php/php.ini:/etc/php/7.0/apache2/php.ini"
+    ports:
+      - "8080:80"
