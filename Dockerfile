@@ -43,6 +43,8 @@ RUN apt-get install -y software-properties-common && \
     php7.0-zip \
     php7.0-json \
     php7.0-curl \
+    php7.0-gd \
+    php7.0-pgsql \
     php-xdebug
 
 # add php ini 
