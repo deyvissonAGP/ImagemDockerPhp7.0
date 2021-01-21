@@ -10,3 +10,4 @@ services:
       - "/home/suinfor/Documentos/docker/php7-0/config/php/php.ini:/etc/php/7.0/apache2/php.ini"
     ports:
       - "8080:80"
+      - "8181:8000"
