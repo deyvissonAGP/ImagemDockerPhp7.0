@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
 
-LABEL maintainer="Raphael Moraes <antnraphael@gmail.com>"
-LABEL description="Apache/PHP5 Docker"
-LABEL version="1.0"
+LABEL maintainer="Devisson Augusto <deyvison.15@hotmail.com>  by-Raphael Moraes"
+LABEL description="Apache/PHP7.0 Docker"
+LABEL version="2.0"
 
 # disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
