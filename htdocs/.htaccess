@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !sia/public/
+RewriteRule (.*) sia/public/$1 [L]
